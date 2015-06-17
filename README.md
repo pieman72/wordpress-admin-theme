@@ -2,6 +2,8 @@
 ## About
 This plugin applies a dark color-scheme to the post editor in the WordPress admin panel. It's dirt simple. The PHP file just tells WordPress to apply the CSS file on certain pages (notably the ones that land you in the editor panel). The CSS file, then overrides all the standard colors.
 
+<img src="http://harveyserv.ath.cx/wp-content/uploads/2015/06/HS-admin.png"/>
+
 ## Installation
 1. Create a new directory called `hsadmin` under `/[PATH_TO_YOUR_SITE]/wp-content/plugins`
 2. Clone this repository into the `hsadmin` directory (or just copy the two files in manually)
