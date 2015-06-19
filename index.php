@@ -10,7 +10,7 @@ Author URI: http://harveyserv.ath.cx/kenny
 */
 
 function apply_HS_admin_styles() {
-	if(in_array(get_admin_page_title(), array(
+	if(function_exists("get_admin_page_title") && in_array(get_admin_page_title(), array(
 			"Edit Post"
 			,"Add New Post"
 		))){
