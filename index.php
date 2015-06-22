@@ -13,6 +13,8 @@ function apply_HS_admin_styles() {
 	if(function_exists("get_admin_page_title") && in_array(get_admin_page_title(), array(
 			"Edit Post"
 			,"Add New Post"
+			,"Edit Page"
+			,"Add New Page"
 		))){
 		wp_enqueue_style('hs-admin-theme', plugins_url('hsadmin.css', __FILE__));
 	}
