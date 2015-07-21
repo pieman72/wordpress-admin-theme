@@ -181,3 +181,25 @@ ul.category-tabs li.tabs {
 	color:#EFEFEF;
 }
 
+
+/* Popups and misc. */
+#wp-link-wrap {
+	background-color:#26292C;
+}
+#link-modal-title {
+	background-color:#363B3F;
+	border-bottom:1px solid #444444;
+}
+#wp-link .submitbox {
+	background-color:#363B3F;
+	border-top:1px solid #444444;
+}
+#wp-link label input[type="text"] {
+	background-color:#000000;
+	border-color:#444444;
+	color:#FFFFFF;
+}
+#wp-link label input[type="text"]:focus {
+	box-shadow:0 0 0 1px #E14D43, 0 0 2px 1px rgba(225, 77, 67, 0.8);
+}
+
