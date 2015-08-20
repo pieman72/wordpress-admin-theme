@@ -65,6 +65,9 @@ div.updated {
 
 
 /* Post Title Editor */
+.wrap > h1, h2 {
+	color:#E0E0E0;
+}
 .wrap .add-new-h2,
 .wrap .add-new-h2:hover,
 .wrap .add-new-h2:active {
@@ -179,6 +182,23 @@ ul.category-tabs li.tabs {
 	background-color:#000000;
 	border:1px solid #444444;
 	color:#EFEFEF;
+}
+
+
+/* Below-editor sections */
+#postcustomstuff thead th {
+	background-color:#363B3F;
+}
+#postcustomstuff table {
+	background-color:#464C50;
+	border:1px solid #363B3F;
+}
+#postcustomstuff table input[type="text"],
+#postcustomstuff table textarea,
+#postcustomstuff table select {
+	background-color:#000000;
+	border-color:#444444;
+	color:#FFFFFF;
 }
 
 
